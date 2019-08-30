@@ -1,7 +1,8 @@
 
 
 #title {
-  background-color: #ff4c68
+  background-color: #ff4c68;
+  padding-bottom: 20px;
 }
 
 .container-fluid {
@@ -22,8 +23,10 @@ h1 {
 }
 
 h3 {
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat';
+  font-weight: 700;  /* bold */
   font-size: 1.5rem;
+  padding-top: 10px;
 }
 
 /* Navigation Bar */
@@ -63,7 +66,8 @@ h3 {
 
 .feat-desc{
   color: #8f8f8f;
-  font-family:Montserrat;
+  font-family:"Montserrat";
+  font-weight: 400; /* light */
 }
 
 .fa {
@@ -71,6 +75,22 @@ h3 {
   size: 200rem;
 }
 
+.fa-check:hover {
+  color: #ff4c68;
+}
+
+.fa-heart:hover {
+  color: #ff4c68;
+}
+
+.fa-bullseye:hover {
+  color: #ff4c68;
+}
+
 .container {
-  padding-top: 30px;
+  padding-top: 6rem;
+}
+
+.col-sm {
+  text-align: center;
 }
