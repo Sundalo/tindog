@@ -1,2 +1,1 @@
-# tindog
-Practice project to showcase bootstrap usage.
+TinDog Starting Files
